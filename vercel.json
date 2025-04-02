@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/angular" }
+  ],
+  "routes": [
+    {
+      "src": "/mission/(.*)",
+      "dest": "/index.html",
+      "renderMode": "ssr"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
