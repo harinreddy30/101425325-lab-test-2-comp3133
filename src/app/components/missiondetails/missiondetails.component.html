@@ -18,8 +18,8 @@
     <p><strong>Rocket:</strong> {{ mission.rocket.rocket_name }} ({{ mission.rocket.rocket_type }})</p>
   </mat-card-content>
   <mat-card-actions>
-    <a mat-button href="{{ mission.links.article_link }}" target="_blank">Article</a>
-    <a mat-button href="{{ mission.links.wikipedia }}" target="_blank">Wikipedia</a>
-    <a mat-button href="{{ mission.links.video_link }}" target="_blank">Video</a>
+    <a mat-button href="{{ mission.links?.article_link }}" target="_blank">Article</a>
+    <a mat-button href="{{ mission.links?.wikipedia }}" target="_blank">Wikipedia</a>
+    <a mat-button href="{{ mission.links?.video_link }}" target="_blank">Video</a>
   </mat-card-actions>
 </mat-card>

@@ -3,8 +3,8 @@ export interface Mission {
   mission_name: string;
   launch_year: string;
   details: string;
-  links: {
-    mission_patch_small: string;
+  links?: {
+    mission_patch_small?: string;
     article_link: string;
     wikipedia: string;
     video_link: string;
