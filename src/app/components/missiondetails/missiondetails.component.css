@@ -1,0 +1,14 @@
+.mission-detail-card {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img[mat-card-image] {
+  max-width: 150px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 1rem auto;
+}

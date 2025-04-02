@@ -1,0 +1,47 @@
+.mission-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  justify-items: center;
+}
+
+.mission-card {
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.mission-card mat-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+mat-card-header,
+mat-card-content {
+  text-align: center;
+}
+
+mat-card-title {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+mat-card-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+mat-card img[mat-card-image] {
+  max-width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto 1rem;
+}
+
+mat-card-content p {
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+}
