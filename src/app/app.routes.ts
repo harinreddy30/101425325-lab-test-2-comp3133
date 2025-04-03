@@ -4,5 +4,11 @@ import { MissiondetailsComponent } from './components/missiondetails/missiondeta
 
 export const appRoutes: Routes = [
   { path: '', component: MissionlistComponent },
-  { path: 'mission/:id', component: MissiondetailsComponent }
+  {
+    path: 'mission/:id',
+    component: MissiondetailsComponent,
+    data: {
+      getPrerenderParams: () => []
+    }
+  }
 ];
