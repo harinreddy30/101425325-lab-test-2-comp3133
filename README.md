@@ -110,21 +110,21 @@ Note: Angular CLI does not include an e2e framework by default — choose one as
 ---
 
 ## Screenshots
-Fetch All Missions
+### Fetch All Missions
 ![Screenshot 1](images/image_1.png)
 
-Filter by Year
+### Filter by Year
 ![Screenshot 2](images/image_2.png)
 ![Screenshot 3](images/image_3.png)
 
-Mission Detail
+### Mission Detail
 ![Screenshot 4](images/image_4.png)
 
-Article
+### Article
 ![Screenshot 5](images/image_5.png)
 
-Wikipedia
+### Wikipedia
 ![Screenshot 6](images/image_6.png)
 
-Video
+### Video
 ![Screenshot 7](images/image_7.png)
