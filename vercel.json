@@ -2,18 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build"
+      "src": "dist/101425325-lab-test2-comp3133/server/server.mjs",
+      "use": "@vercel/node"
     },
     {
-      "src": "dist/101425325-lab-test-2-comp3133/server/server.mjs",
-      "use": "@vercel/node"
+      "src": "dist/101425325-lab-test2-comp3133/browser/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/101425325-lab-test-2-comp3133/server/server.mjs"
+      "dest": "/dist/101425325-lab-test2-comp3133/browser/$1"
     }
   ]
 }
